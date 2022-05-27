@@ -12,3 +12,16 @@ def find_anagram(word, anagram):
         return True
     else:
         return False
+
+print("This is a program to find if a word matches an anagram\n")
+
+word = input("please enter a word to check if it matches an anagram: ")
+print("This is the word:", word)
+    
+anagram = input("please enter an anagram to check with the word: ")
+print("This is the anagram:", anagram)
+
+print(f"\nchecking... {word} and {anagram}")
+
+print(f"checked\n")
+print(f"Result: {find_anagram(word, anagram)}")
